@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  
+}
+
+body {
+
+  background: #f0f2f5;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #1877f2;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.infos {
+  margin-right: 150px;
+  width: 490px;
+}
+
+.lgtex {
+  color: #000;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.from {
+  width: 395px;
+  height: 442px;
+  border-radius: 28px;
+  background: #fff;
+  text-align: center;
+  align-items: center;
+}
+
+.inputs {
+  margin-top: 26px;
+}
+.inputs input {
+  border-radius: 11px;
+  border: 1px solid #ccc;
+  background: #fff;
+  width: 360px;
+  height: 60px;
+  color: #777;
+  font-size: 15px;
+  font-weight: 400;
+  padding-left: 20px;
+
+}
+
+.inp-2 {
+  margin-top: 26px;
+}
+
+.btn {
+  margin-top: 26px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  border-radius: 11px;
+  background: #1877f2;
+  width: 360px;
+  height: 60px;
+  border: none;
+  margin-bottom: 28px;
+  transition: 0.5s;
+}
+
+.btn:hover{
+    background-color: #0a51ae;
+}
+
+.btncreate {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  width: 209px;
+  height: 60px;
+  border-radius: 11px;
+  background: #42b72a;
+  margin-top: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btncreate:hover{
+  background: #1f8c09;
+}
+
+
+.frlink {
+  color: #1877f2;
+  font-size: 15px;
+  font-weight: 400;
+  width: 136px;
+  height: 20px;
+  text-decoration: none;
+}
+
+.frlink:hover{
+    text-decoration: underline;
+}
+
+.hr {
+  padding: 0 20px;
+}
+
+
